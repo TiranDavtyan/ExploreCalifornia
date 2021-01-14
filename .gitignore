@@ -1,0 +1,12 @@
+# comment 
+New Text Document.txt
+*.zip
+*.gz
+log/*.log
+log/*.log.[0-9]
+assets/photoshop/
+assets/videos/
+!assets/videos/tour_*.mp4
+
+# Question: would log/archive/access.log be ignored?
+# Answer: It will be tracked.
